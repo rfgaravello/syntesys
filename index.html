@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Syntesys - Soluções de TI</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: "Segoe UI", sans-serif;
+            background: #0d0f18;
+            color: #e4e7ef;
+        }
+        header {
+            background: #111423;
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+        }
+        header img {
+            height: 50px;
+        }
+        nav a {
+            margin-left: 25px;
+            color: #9aa0b8;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        nav a:hover {
+            color: #4da3ff;
+        }
+        .hero {
+            background: url('hero-bg.jpg') center/cover no-repeat;
+            padding: 120px 40px;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin: auto;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 12px 24px;
+            background: #4da3ff;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+        }
+        .section {
+            padding: 80px 40px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+        .card {
+            background: #161a2b;
+            padding: 25px;
+            border-radius: 12px;
+            text-align: center;
+            border: 1px solid #1e2338;
+        }
+        .card img {
+            width: 70px;
+            margin-bottom: 15px;
+        }
+        footer {
+            background: #111423;
+            padding: 25px;
+            text-align: center;
+            font-size: 0.9rem;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="logo-syntesys.png" alt="Syntesys Logo" />
+    <nav>
+        <a href="#servicos">Serviços</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato">Contato</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Transformação Digital com Inteligência e Precisão</h1>
+    <p>Syntesys entrega soluções completas de TI: gestão de projetos, desenvolvimento, infraestrutura, cloud e automação.</p>
+    <a class="btn" href="#contato">Fale Conosco</a>
+</section>
+
+<section class="section" id="servicos">
+    <h2 style="text-align:center; margin-bottom:40px;">Serviços</h2>
+    <div class="services">
+        <div class="card">
+            <img src="icon-projects.png" />
+            <h3>Gestão de Projetos</h3>
+            <p>Metodologias ágeis e tradicionais para entregar projetos com precisão.</p>
+        </div>
+        <div class="card">
+            <img src="icon-dev.png" />
+            <h3>Desenvolvimento</h3>
+            <p>Websites, sistemas, apps e integrações sob medida.</p>
+        </div>
+        <div class="card">
+            <img src="icon-cloud.png" />
+            <h3>Cloud & Infra</h3>
+            <p>Migração, otimização, redes, segurança e ambientes híbridos.</p>
+        </div>
+        <div class="card">
+            <img src="icon-automation.png" />
+            <h3>Automação</h3>
+            <p>Processos inteligentes usando IA e ferramentas modernas.</p>
+        </div>
+    </div>
+</section>
+
+<section class="section" id="sobre">
+    <h2 style="text-align:center;">Sobre a Syntesys</h2>
+    <p style="max-width:800px; margin:auto; text-align:center;">Profissional com mais de 10 anos em TI entregando soluções modernas para negócios de todos os tamanhos: tecnologia, eficiência e resultado.</p>
+</section>
+
+<section class="section" id="contato">
+    <h2>Contato</h2>
+    <p>E-mail: <a href="mailto:contato@syntesys.com">contato@syntesys.com</a></p>
+    <p>WhatsApp: <a href="https://wa.me/5519999999999" target="_blank">Clique aqui</a></p>
+</section>
+
+<footer>
+    © 2025 Syntesys — Soluções de TI
+</footer>
+
+</body>
+</html>
